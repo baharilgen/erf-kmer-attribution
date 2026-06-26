@@ -53,7 +53,7 @@ erf-kmer-attribution/
 ## Installation
 
 ```bash
-git clone https://github.com/<username>/erf-kmer-attribution.git
+git clone https://github.com/baharilgen/erf-kmer-attribution.git
 
 cd erf-kmer-attribution
 
