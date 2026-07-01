@@ -48,7 +48,7 @@ erf-kmer-attribution/
 ├── requirements.txt
 └── README.md
 ```
-```markdown
+## Markdown
 Code, configuration files, model weights, and example outputs will be added progressively as they become available and approved for public release.
 
 ---
