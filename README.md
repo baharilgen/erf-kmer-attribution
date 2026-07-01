@@ -26,7 +26,7 @@ Unlike conventional feature-level attribution methods, the proposed framework ex
 
 ## Repository Structure
 
-The repository will contain the following components:
+The repository is being prepared for public release. Planned components include:
 
 ```text
 erf-kmer-attribution/
@@ -48,45 +48,12 @@ erf-kmer-attribution/
 ├── requirements.txt
 └── README.md
 ```
+```markdown
+Code, configuration files, model weights, and example outputs will be added progressively as they become available and approved for public release.
 
 ---
 
-## Installation
 
-```bash
-git clone https://github.com/baharilgen/erf-kmer-attribution.git
-
-cd erf-kmer-attribution
-
-pip install -r requirements.txt
-```
-
----
-
-## Running the Attribution Pipeline
-
-```bash
-python scripts/activation_analysis.py \
-    --model_path models/DiCNN_Kmer_Classifier_weights.h5 \
-    --tokenizer_dir config/ \
-    --label_classes config/label_classes.json \
-    --data_path <dataset.csv> \
-    --output_dir results/
-```
-
----
-
-## Output
-
-The framework generates:
-
-- ERF attribution tables
-- Class-specific discriminative k-mer scores
-- Attribution heatmaps
-- Robustness analyses
-- Occlusion validation results
-
----
 
 ## Data
 
@@ -96,11 +63,11 @@ The genomic sequences used in this study were obtained from the publicly availab
 
 ## Citation
 
-If you use this repository, please cite the accompanying publication.
+If you use this repository, please cite the accompanying publication:
 
-```bibtex
-Citation will be added upon publication.
-```
+İlgen B., Shahid A., Kühnert D.
+*Interpretable Flavivirus Classification under Low-Coverage Conditions via ERF-Aware k-mer Attribution*.
+EXPLIMED 2026.
 
 ---
 
