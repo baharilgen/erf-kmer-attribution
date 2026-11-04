@@ -1,4 +1,4 @@
-# ERF-aware k-mer Attribution Framework
+# ERF-aware k-mer Attribution for DiCNN-UniK
 
 Architecture-aware explainability framework for convolutional neural networks operating on genomic k-mer representations.
 
