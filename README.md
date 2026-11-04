@@ -31,7 +31,7 @@ The repository is being prepared for public release. Planned components include:
 erf-kmer-attribution/
 │
 ├── scripts/
-│   ├── activation_analysis.py
+│   ├── erf_attribution.py
 │   └── occlusion_validation.py
 │
 ├── config/
