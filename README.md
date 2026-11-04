@@ -1,27 +1,28 @@
 # ERF-aware k-mer Attribution for DiCNN-UniK
 
-Architecture-aware explainability framework for convolutional neural networks operating on genomic k-mer representations.
+Code accompanying the paper Interpretable Flavivirus Classification under Low-Coverage Conditions via ERF-Aware k-mer Attribution (EXPLIMED 2026).
 
 ---
 
 ## Overview
 
-This repository contains the implementation of an ERF-aware attribution framework for interpreting genomic CNN classifiers.
+This repository provides an attribution analysis pipeline for DiCNN-UniK, a convolutional neural network for genomic sequence classification using k-mer representations.
 
-The framework extends the previously published **DiCNN-UniK** architecture with an interpretable attribution pipeline that traces highly activated convolutional filters back to their **Effective Receptive Fields (ERFs)**, providing biologically interpretable sequence-level explanations.
-
-Unlike conventional feature-level attribution methods, the proposed framework explicitly exploits the receptive field structure of convolutional neural networks to identify discriminative genomic sequence signatures.
+The method maps convolutional filter activations to their corresponding k-mers and effective receptive field (ERF) windows. It aggregates these attributions across samples to identify class-associated sequence patterns and quantify their discriminative scores.
 
 ---
 
 ## Features
 
-- ERF-aware activation attribution
-- Class-level attribution aggregation
-- Frequency-aware discriminative scoring
-- Attribution robustness analysis under simulated nucleotide ambiguity
-- Occlusion-based perturbation validation
+## Features
 
+- ERF-aware attribution of convolutional filter activations
+- Extraction of anchor k-mers and full ERF windows
+- Class-level aggregation of activation strength and sample frequency
+- Frequency-weighted discriminative scoring
+- Corpus-level hapax legomena analysis
+- Attribution stability analysis under simulated nucleotide ambiguity
+- Occlusion-based perturbation validation
 ---
 
 ## Repository Structure
