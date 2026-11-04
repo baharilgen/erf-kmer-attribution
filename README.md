@@ -14,8 +14,6 @@ The method maps convolutional filter activations to their corresponding k-mers a
 
 ## Features
 
-## Features
-
 - ERF-aware attribution of convolutional filter activations
 - Extraction of anchor k-mers and full ERF windows
 - Class-level aggregation of activation strength and sample frequency
