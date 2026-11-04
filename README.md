@@ -54,6 +54,27 @@ erf-kmer-attribution/
 - `erf_attribution.py` — ERF-aware activation attribution, class-level aggregation, discriminative scoring, hapax analysis, and attribution stability testing.
 - `occlusion_validation.py` — Occlusion-based perturbation analysis for evaluating attributed sequence regions.
 
+## Model Requirements
+
+The scripts require a trained DiCNN-UniK model, the corresponding k-mer tokenizers, and label mappings. These files are part of the underlying DiCNN-UniK implementation and are not included in this repository.
+
+## Usage
+
+Run the attribution analysis with a trained DiCNN-UniK model and the corresponding tokenizers and label mappings.
+
+```bash
+python erf_attribution.py \
+    --model_path DiCNN_Kmer_Classifier_artifacts/DiCNN_Kmer_Classifier_weights.h5 \
+    --tokenizer_dir DiCNN_Kmer_Classifier_artifacts/ \
+    --label_classes DiCNN_Kmer_Classifier_artifacts/label_classes.json \
+    --data_path Flavi_training_data.csv \
+    --output_dir attribution_results/ \
+    --confidence 0.9 \
+    --stability
+```
+
+The input CSV must contain `Sequence` and `Organism_Name` columns. The optional `--stability` flag enables analysis under simulated nucleotide ambiguity.
+
 
 ## Data
 
