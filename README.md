@@ -49,7 +49,10 @@ erf-kmer-attribution/
 ```
 
 ---
+## Code
 
+- `erf_attribution.py` — ERF-aware activation attribution, class-level aggregation, discriminative scoring, hapax analysis, and attribution stability testing.
+- `occlusion_validation.py` — Occlusion-based perturbation analysis for evaluating attributed sequence regions. *(To be added.)*
 
 
 ## Data
