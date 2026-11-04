@@ -64,7 +64,7 @@ If you use this repository, please cite the accompanying publication:
 
 İlgen B., Shahid A., Kühnert D.
 *Interpretable Flavivirus Classification under Low-Coverage Conditions via ERF-Aware k-mer Attribution*.
-EXPLIMED 2026.
+ IJCAI-ECAI 2026 Workshop on Explainable Artificial Intelligence for the Medical Domain (EXPLIMED 2026). 2026.
 
 ---
 
